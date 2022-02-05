@@ -4,8 +4,8 @@ int main(void)
 {
     int first_number, second_number;
 
-    first_number = 10;
-    second_number = 20;
+    printf("\nEnter two numbers: ");
+    scanf("%d %d", &first_number, &second_number);
 
     int sum = first_number + second_number;
 

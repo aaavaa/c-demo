@@ -6,5 +6,9 @@ int main(void)
 
     first_number = 10;
     second_number = 20;
+
+    int sum = first_number + second_number;
+
+    printf("The sum is %d", sum);
     return 0;
 }
